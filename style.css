@@ -56,7 +56,10 @@ body {
 
 /* Hero */
 .hero {
-    background: linear-gradient(135deg, #007acc, #005f99);
+    background-image: url('desen.png'); /* desenin dosya yolu */
+  background-repeat: repeat; /* deseni yatay ve dikey tekrarlar */
+  background-size: auto; /* istersen 'contain' veya 'cover' da yapabilirsin */
+  
     color: white;
     text-align: center;
     padding: 70px 20px;
@@ -345,4 +348,19 @@ footer {
   }
 }
 
+/* Garanti Şeridi */
+.guarantee-bar {
+  background-image: url('desen.png'); /* desenin dosya yolu */
+  background-repeat: repeat; /* deseni yatay ve dikey tekrarlar */
+  background-size: auto; /* istersen 'contain' veya 'cover' da yapabilirsin */
+  
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
