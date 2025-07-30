@@ -1,0 +1,348 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.7;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #062b44;
+}
+
+.call-btn {
+    background-color: #001a81;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.call-btn:hover {
+    background-color: #005f99;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #007acc, #005f99);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+.btn {
+    background-color: #ffa500;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 400;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e59400;
+}
+
+/* Sections */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section h2 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Form */
+form {
+    max-width: 400px;
+    margin: 20px 0 20px 0; /* Sola yasla */
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="tel"],
+form textarea {
+  width: 100%;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #f0f0f0;
+  border-radius: 20px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+
+
+form button {
+    background-color: #001a81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #003080;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #007acc;
+    color: white;
+}
+
+.contact-section p {
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.call-center-btn {
+    background-color: white;
+    color: #007acc;
+    padding: 12px 25px;
+    border: 2px solid #007acc;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.call-center-btn:hover {
+    background-color: #007acc;
+    color: white;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #007acc;
+    color: white;
+    font-size: 0.95rem;
+    padding: 8px 0;
+}
+
+.top-bar-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.top-bar-content span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Logo & Title */
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+}
+
+.logo-title h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #001a81;
+}
+
+.about-section {
+    background-color: #ffffff;
+    color: #333;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #0a0061;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.about-section p {
+    max-width: 700px;
+    margin: 0 auto 15px auto;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+/* Form Section Title */
+.form-section h2 {
+    color: #ef8a2c;
+    font-size: 1.3rem;
+    text-align: left;
+    max-width: 600px;
+    margin: 1 auto 20px auto;
+    font-weight: 700;
+}
+
+
+
+.form-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;          /* max-width yerine tam genişlik */
+  max-width: none;      /* max genişlik kaldır */
+  margin: 20px 0;       /* yatayda otomatik boşluk yok */
+  position: relative;
+  flex-wrap: nowrap;
+  justify-content: flex-start; /* elemanları sola yasla */
+}
+
+
+.form-wrapper form {
+  flex: 1;
+  max-width: 400px;
+  min-width: auto;
+}
+.right-image {
+  width: 650px;       /* istediğin büyüklük */
+  margin-left: auto;  /* sağa it */
+  height: auto;
+  border-radius: 12px;
+  flex-shrink: 0;
+}
+
+
+/* Mobil için genel düzenleme */
+@media (max-width: 768px) {
+  /* Header içerik dikey olsun, arada boşluk olsun */
+  .header-content {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* Sola hizala */
+  }
+
+  /* form-wrapper içindekiler alt alta geçsin */
+  .form-wrapper {
+    flex-wrap: wrap; /* sarma açık */
+    gap: 20px;
+  }
+
+  /* Form genişliği tam olsun */
+  .form-wrapper form {
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  /* Sağdaki resim kaybolsun veya küçülsün */
+  .right-image {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+
+  /* section başlıkları biraz daha küçük */
+  section h2 {
+    font-size: 1.4rem;
+  }
+
+  /* Buton genişliği %100 kalsın */
+  form button {
+    width: 100%;
+  }
+
+  /* Top bar içeriği daha küçük ve sıkışık */
+  .top-bar-content {
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.85rem;
+    gap: 5px;
+  }
+}
+
+
