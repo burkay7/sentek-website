@@ -78,7 +78,7 @@ body {
 }
 
 .btn {
-    background-color: #ffa500;
+    background-color: #6b6b6b;
     color: white;
     padding: 12px 25px;
     border-radius: 6px;
@@ -89,7 +89,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #e59400;
+    background-color: #ed0000;
 }
 
 /* Sections */
@@ -157,7 +157,7 @@ form button:hover {
 
 /* Contact Section */
 .contact-section {
-    background-color: #007acc;
+    background-color: #001a81;
     color: white;
 }
 
@@ -263,7 +263,7 @@ footer {
 
 /* Form Section Title */
 .form-section h2 {
-    color: #ef8a2c;
+    color: #6b6b6b;
     font-size: 1.3rem;
     text-align: left;
     max-width: 600px;
@@ -352,7 +352,7 @@ footer {
 .guarantee-bar {
   background-image: url('desen.png'); /* desenin dosya yolu */
   background-repeat: repeat; /* deseni yatay ve dikey tekrarlar */
-  background-size: auto; /* istersen 'contain' veya 'cover' da yapabilirsin */
+  background-size: cover; /* istersen 'contain' veya 'cover' da yapabilirsin */
   
   color: white;
   text-align: center;
